@@ -22,15 +22,6 @@ class ThemeConfigApp {
             fontWeight: FontWeight.bold,
           ),
           shadowColor: Colors.black,
-          shape: ShapeBorder.lerp(
-            RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20),
-            ),
-            RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20),
-            ),
-            0.4,
-          ),
         ),
         drawerTheme: DrawerThemeData(
           backgroundColor: Colors.blue[900],
